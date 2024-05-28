@@ -1,6 +1,30 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap);
 /* CSS Document */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway-semibold';
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway-light';
+    src: url("../fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway-medium';
+    src: url("../fonts/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url("../fonts/Raleway-Bold.ttf");
+}
 
 * {
 	box-sizing: border-box;
