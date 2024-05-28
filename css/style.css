@@ -5,31 +5,6 @@
     box-sizing: border-box;
 }
 
- @font-face {
-    font-family: 'Raleway';
-    src: url("../img/fonts/Raleway-Regular.ttf");
-}
-
-@font-face {
-    font-family: 'Raleway-semibold';
-    src: url("../img/fonts/Raleway-SemiBold.ttf");
-}
-
-@font-face {
-    font-family: 'Raleway-light';
-    src: url("../img/fonts/Raleway-Light.ttf");
-}
-
-@font-face {
-    font-family: 'Raleway-medium';
-    src: url("../img/fonts/Raleway-Medium.ttf");
-}
-
-@font-face {
-    font-family: 'Raleway-bold';
-    src: url("../img/fonts/Raleway-Bold.ttf");
-}
-
 body {
 	font-family: "Raleway";
 	margin: 0;
