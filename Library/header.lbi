@@ -1,0 +1,42 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><header>
+		<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="../img/icona_x.svg" alt="icona x"></a>
+			  <a href="#" target="_blank">New products</a>
+			  <a href="#" target="_blank">Bestsellers</a>
+			  <a href="#" target="_blank">Hair</a>
+			  <a href="#" target="_blank">Skincare</a>
+			  <a href="../help.html">Help</a>
+		</div>
+
+		<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+		</script>
+		
+			<div id="sticky-header">
+				<div>
+				FOR ORDERS OVER 35€, WE PAY FOR SHIPPING 💸 -
+					<a href="#">SHOP NOW!</a>
+				</div>
+			</div>
+		
+		<nav>
+			<div class="icone">
+				<span onclick="openNav()"><a href="#"><img src="../img/icona_menu.svg" alt="menu"></a></span>
+				<a href="#" target="_blank"><img src="../img/icona_ricerca.svg" alt="menu"></a>
+			</div>
+			<div id="logo-header">
+				<a href="../index.html" target="_blank"><img src="../img/logo_biobloom.png" alt="logo biobloom"></a>
+			</div>
+			<div class="icone">
+				<a href="#" target="_blank"><img src="../img/icona_account.svg" alt="account"></a>
+				<a href="#" target="_blank"><img src="../img/icona_carrello.svg" alt="carrello"></a>
+			</div>
+		</nav>
+		
+	</header>
